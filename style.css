@@ -1,10 +1,10 @@
-.container {
+.container1 {
     position:relative;
     width: 1000px;
     margin: auto;
     background-color: #8e80e7;
 }
-.container canvas,
+.container1 canvas,
 .center {
     position:absolute;
     top:50vh;
@@ -27,9 +27,9 @@
 }
 
 .column3 {
-    float: left;
-    width: 50%;
-    height: 20%;
+    
+    margin: auto;
+    height: 10%;
 
 }
 /*Clear floats after the columns */
@@ -39,31 +39,7 @@
     clear: both;
     
 }
-table{
-    border: 3px solid black;
-    height: 80px;
-    width: 80%;
-    border-radius: 10px ;
-    text-align: center;
-    font-weight:bold;
 
-
-}
-th {
-    border: 2px solid black;
-    height: 70px;
-    border-radius: 2ch;
-    font-weight:bold;
-    
-}
-tr,td{
-    border: 2px solid black;
-    height: 50px;
-    border-radius: 2ch;
-    padding: 10px;
-    font-weight:bold;
-
-}
 
 *{
     margin: 0;
@@ -99,12 +75,12 @@ img{
 
 
 button{
-    width: 80px;
+    width: auto;
     height: 40px;
     padding: 7px;
     outline: none;
     cursor: pointer;
-    margin: 10px 30%;
+    margin: 10px 40%;
     justify-content: center;
 }
 .heart.png{
@@ -115,3 +91,6 @@ button{
     height: 60px;
     width: 60px;
 }
+.headertekst{
+    text-align: center;
+  }

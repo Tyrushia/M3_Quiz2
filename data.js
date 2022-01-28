@@ -17,16 +17,3 @@ function display_meme(image_url){
     document.getElementById("waif").src =image_url
 
 }
-function displayResult() {
-
-    var table = document.getElementById("table");
-    var row = table.insertRow(1);
-    var x = row.insertCell(-1);
-
-
-    var img = document.createElement('img');
-    img.src = waif.src;
-
-    x.appendChild(img);
-    
-}
